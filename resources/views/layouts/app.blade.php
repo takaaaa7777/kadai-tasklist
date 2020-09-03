@@ -9,9 +9,9 @@
     <body>
         @include('common.navbar')
 
-        @include('common.error_messages')
-        
         <div class="container">
+            @include('common.error_messages')
+        
             @yield('content')
         </div>
 
